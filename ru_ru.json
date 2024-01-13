@@ -1,0 +1,467 @@
+{
+  "noClaim": "Это место не запривачено",
+  "inspectBlockOwner": "%1$s владеет этим местом",
+  "inspectNoClaim": "Никто не владеет этим блоком",
+  "claimBlocksFormat": "Claim Blocks: %1$d + (Bonus) %2$d); Used: %3$d; Remaining: %4$d",
+  "listClaims": "Список всех приватов:",
+  "listAdminClaims": "Список всех админских приватов в %1$s:",
+  "onlyOnePlayer": "Только один игрок может использоваться в качестве аргумента",
+  "ownerTransferSuccess": "%1$s стал новым новый владельцем",
+  "ownerTransferFail": "Только владелец может передать право собственности",
+  "ownerTransferNoBlocks": "The new owner doesnt have enough claimblocks",
+  "ownerTransferNoBlocksAdmin": "Вы можете игнорировать эту проверку, перейдя в admin mode",
+  "noPermission": "Этот регион запривачен! Его владелец запретил сделать то, что вы пытаетесь сделать",
+  "noPermissionSimple": "Этот регион запривачен!",
+  "noPermissionTooClose": "Вы слишком близко к привату чтобы сделать то, что вы пытаетесь сделать",
+  "tooCloseClaim": "Вы слишком близко к привату чтобы сделать то, что вы пытаетесь сделать",
+  "configReload": "Конфигурация перезагружена",
+  "cantClaimHere": "Тут нельзя приватить",
+  "minClaimSize": "Приват слишком маленький. Миниальный размер %d блоков.",
+  "maxClaims": "Достигнуто максимальное количество приватов",
+  "landClaimDisabledWorld": "Приваты отключены в этом мире",
+  "editMode": "Режим редактирования изменен на %1$s",
+  "notEnoughBlocks": "Not enough claim blocks",
+  "conflictOther": "Claim would overlap other claims",
+  "wrongMode": "Неверные режим редактирования. Сейчас включен режим %1$s",
+  "stringScreenReturn": "Назад",
+  "groupAdd": "Добавлена группа %1$s",
+  "groupRemove": "Удалена группа %1$s",
+  "groupExist": "Группа уже существует",
+  "uuidFakeAdd": "В приват добавлен fakeplayer с uuid'ом %1$s",
+  "uuidFakeRemove": "Из привата удален fakeplayer с uuid'ом %1$s",
+  "uuidFakeModifyNo": "Fakeplayer с данным uuid'ом уже добавлен",
+  "playerModify": "Modified permission group for following players to %1$s: %2$s",
+  "playerModifyNo": "Не удалось установить группу прав для игроков. Возможно они уже находятся в какой-либо группе",
+  "playerGroupAddFail": "Не удалось добавить данного игрока в группу: либо игрок уже находится в какой-либо группе, или имя игрока указано неверно",
+  "resizeClaim": "Изменение размеров привата",
+  "resizeSuccess": "Размер привата успешно изменен",
+  "claimCreateSuccess": "Создан новый приват",
+  "subClaimCreateSuccess": "Создан новый подприват",
+  "deleteClaim": "Приват удален",
+  "deleteAllClaimConfirm": "Вы уверены что хотите удалить все приваты? Напишите это еще раз, чтобы подтвердить",
+  "deleteAllClaim": "Все приваты удалены",
+  "deleteClaimError": "Вы не можете удалить этот приват тут",
+  "deleteSubClaim": "Подприват удален",
+  "deleteSubClaimAll": "Все подприваты удалены из этого привата",
+  "noSuchPerm": "Не найдена опция %1$s",
+  "editPerm": "Опция %1$s теперь установлена в %2$s",
+  "editPermGroup": "Опция %1$s для группы %2$s теперь установлена в %3$s",
+  "editPersonalGroup": "Опция по умолчанию %1$s для группы %2$s теперь установлена в %3$s",
+  "adminMode": "Режим admin mode (игнорирование приватов) теперь установлен в %1$s",
+  "adminDeleteAll": "Все приваты игрока %1$s удалены",
+  "setAdminClaim": "Флаг Adminclaim данного привата теперь %1$s",
+  "readGriefpreventionData": "Reading data from GriefPrevention",
+  "readGriefpreventionClaimDataSuccess": "Successfully read claim data",
+  "readGriefpreventionPlayerDataSuccess": "Successfully read player data",
+  "cantFindData": "No griefprevention data at %1$s",
+  "errorFile": "Ошибка чления файла %1$s",
+  "readConflict": "Файл %1$s конфликтует с уже существующими приватами. В мир ничего не добавлено! Конфликты:",
+  "giveClaimBlocks": "Gave following players %2$d claimblocks: %1$s",
+  "fakePlayerNotification1": "С вашим регионом попытался взаимодействовать fakeplayer в мире %1$s по координатам %2$s",
+  "fakePlayerNotification2": "Нажмите %s пока находитесь в вашем привате чтобы добавить этого fakeplayer'а в приват",
+  "clickableComponent": "тут",
+  "fakePlayerNotification3": "Нажмите %s чтобы отключить это уведомление",
+  "fakePlayerNotification": "Уведомления о fakePlayer'ах теперь установлено в %s",
+  "claimBasicInfo": "Владелец: %1$s, гранцы: от [x=%2$d,z=%3$d] до [x=%4$d,z=%5$d]); Количество подприватов: %6$d",
+  "claimBasicInfoNamed": "Приват: %7$s, Владелец: %1$s, гранцы: от [x=%2$d,z=%3$d] to [x=%4$d,z=%5$d]); Количество подприватов: %6$d",
+  "claimSubHeader": "==Информация о подприватах==",
+  "claimBasicInfoSub": "Владелец: %1$s, границы: от [x=%2$d,z=%3$d] до [x=%4$d,z=%5$d]",
+  "claimBasicInfoSubNamed": "Приват: %6$s, Владелец: %1$s, границы: от [x=%2$d,z=%3$d] до [x=%4$d,z=%5$d]",
+  "claimInfoPerms": "Опции: %1$s",
+  "claimGroupInfoHeader": "Группы: ",
+  "claimGroupPerms": "    Опции: %1$s",
+  "claimGroupPlayers": "    Игроки: %1$s",
+  "helpHeader": "Доступные подкоманды (страница %d):",
+  "helpCmdHeader": "====================",
+  "helpCmdSyntax": "Синтаксис: %1$s",
+  "screenEnableText": "Включено: %1$s",
+  "screenUneditable": "Нередактируемо!",
+  "screenClose": "Закрыть",
+  "screenNext": "Далее",
+  "screenPrevious": "Назад",
+  "screenAdd": "Добавить",
+  "screenBack": "Назад",
+  "screenNoPerm": "No Permission",
+  "screenFalse": "выключено",
+  "screenTrue": "включено",
+  "screenDefault": "по умолчанию",
+  "screenMenu": "Меню приватов",
+  "screenMenuSub": "Меню подприватов",
+  "screenMenuGlobal": "Редактировать глобальные опции",
+  "screenMenuGroup": "Редактировать группы опций",
+  "screenMenuPotion": "Редактировать эффекты игрока",
+  "screenMenuClaimText": "Редактировать текст при входе/выходе в приват",
+  "screenMenuFakePlayers": "Fake Players",
+  "screenMenuDelete": "Удалить приват",
+  "screenConfirm": "Подтвердить",
+  "screenYes": "Да",
+  "screenNo": "Нет",
+  "screenGroupPlayers": "%1$s-Players",
+  "screenRemoveMode": "Режим удаления: %1$s",
+  "screenGlobalPerms": "Global-Permissions",
+  "screenGroupName": "%s",
+  "screenGroups": "Claim-Groups",
+  "screenGroupPerms": "%1$s-Permissions",
+  "screenPersonalGroups": "Personal-Groups",
+  "screenPersonalPermissions": "Персональные опции для %1$s",
+  "screenFakePlayerNameUUID": "%s",
+  "screenPotions": "Claim Potions",
+  "screenPotionText": "%s",
+  "screenTitleEditor": "Claim messages",
+  "screenTitleEditorSub": "Subclaim messages",
+  "screenTextJson": "Right-Click to use JSON text. See MC Wiki for that.",
+  "screenEnterText": "Редактировать текст заголовка входа в приват.",
+  "screenEnterSubText": "Редактировать текст подзаголовка входа в приват.",
+  "screenLeaveText": "Редактировать текст заголовка выхода из привата.",
+  "screenLeaveSubText": "Редактировать текст подзаголовка выхода из привата.",
+  "screenDelete": "Используйте \"$empty\" чтобы удалить это сообщение",
+  "chatClaimTextEdit": "[Click for command]",
+  "sellDisabled": "Claimblocks selling is disabled",
+  "buyDisabled": "Claimblocks purchasing is disabled",
+  "sellFail": "Not enough claimblocks to sell",
+  "buyFail": "Недостаточно средств",
+  "buyFailItem": "Недостаточно предметов",
+  "buyFailXP": "Недостаточно очков опыта",
+  "sellSuccess": "Приват %1$s продан за %2$s",
+  "sellSuccessItem": "Приват %1$s продан за %2$s %3$s",
+  "sellSuccessXP": "Приват %1$s продан за %2$s очков опыта",
+  "buySuccess": "Приват %1$s куплен за %2$s",
+  "buySuccessItem": "Приват %1$s куплен за %2$s предметов",
+  "buySuccessXP": "Приват %1$s куплен за %2$s очков опыта",
+  "currencyMissing": "На сервере не установлен поддерживаемый мод валюты",
+  "trappedRescue": "Спасатели в пути. Не двигайтесь в течении 5 секунд.",
+  "trappedFail": "Спасатели уже в пути или думают что вы можете выбраться сами",
+  "trappedMove": "Вы шевельнулись. Спасение отменено.",
+  "unlockDropsCmd": "Ваши предметы, оставленные после гибели защишены. Используйте %1$s чтобы разблокировать их для других игроков.",
+  "unlockDrops": "Ваши предметы, оставленные после гибели, теперь разблокированы на %1$s тиков",
+  "unlockDropsMulti": "Предметы разблокированы для %1$s",
+  "claimNameSet": "Название привата изменено на %1$s",
+  "claimNameUsed": "Владелец этого привата уже имеет приват с таким именем",
+  "claimNameUsedSub": "Один из подприватов в этом привате уже имеет такое имя",
+  "setHome": "Основной приват установлен в [x=%1$s,y=%2$s,z=%3$s]",
+  "teleportHome": "Перемещаю в основной приват. ННе двигайтесь в течении 5 секунд.",
+  "teleportHomeFail": "Перемещение уже в процессе",
+  "setEnterMessage": "Set enter title to %1$s",
+  "setEnterSubMessage": "Set enter subtitle to %1$s",
+  "setLeaveMessage": "Set leave title to %1$s",
+  "setLeaveSubMessage": "Set leave subtitle to %1$s",
+  "wiki": "Больше информации вы найдете на вики:",
+  "EDITCLAIM.desc": [
+    "Позволяет редактировать (изменять размер, удалять...) приват"
+  ],
+  "EDITPERMS.desc": [
+    "Позволяет изменять опции привата"
+  ],
+  "EDITPOTIONS.desc": [
+    "Позволяет редактировать эффекты привата"
+  ],
+  "BREAK.desc": [
+    "Позволяет разрушать блоки в привате"
+  ],
+  "PLACE.desc": [
+    "Позволяет ставить блоки в привате"
+  ],
+  "OPENCONTAINER.desc": [
+    "Позволяет открывать контейнеры",
+    "(сундуки, приваты и т.п.)"
+  ],
+  "INTERACTBLOCK.desc": [
+    "Позволяет взаимодействовать с блоками.",
+    "В случае неприменимости используется опция OPENCONTAINER",
+    "Используется для тех блоков, которые не обрабатывает опция OPENCONTAINER"
+  ],
+  "ANVIL.desc": [
+    "Позволяет использовать наковальни"
+  ],
+  "BED.desc": [
+    "Позволяет использовать кровати"
+  ],
+  "BEACON.desc": [
+    "Позволяет активировать маяки"
+  ],
+  "DOOR.desc": [
+    "Позволяет использовать двери"
+  ],
+  "FENCEGATE.desc": [
+    "Позволяет использовать калитки"
+  ],
+  "TRAPDOOR.desc": [
+    "Позволяет использовать люди"
+  ],
+  "BUTTONLEVER.desc": [
+    "Позволяет использовать рычаги и кнопки"
+  ],
+  "PRESSUREPLATE.desc": [
+    "Позволяет использовать нажимные пластины"
+  ],
+  "NOTEBLOCK.desc": [
+    "Позволяет изменять нотные блоки"
+  ],
+  "REDSTONE.desc": [
+    "Позволяет изменять компоненты из красного камня"
+  ],
+  "JUKEBOX.desc": [
+    "Позволяет использовать проигрыватели"
+  ],
+  "ENDERCHEST.desc": [
+    "Позволяет использовать Эндер-сундуки"
+  ],
+  "ENCHANTMENT.desc": [
+    "Позволяет использовать столы зачарования"
+  ],
+  "ITEMFRAMEROTATE.desc": [
+    "Позволяет вращать предметы в рамках"
+  ],
+  "LECTERNTAKE.desc": [
+    "Позволяет изменять книги в кафедре"
+  ],
+  "ENDCRYSTALPLACE.desc": [
+    "Позволяет ставить Эндер-кристаллы"
+  ],
+  "TARGETBLOCK.desc": [
+    "Позволяет активировать мишени"
+  ],
+  "PROJECTILES.desc": [
+    "Позволяет снарядам взимодействовать с блоками",
+    "(пр. активировать кнопки стрелами)"
+  ],
+  "TRAMPLE.desc": [
+    "Позволяет изменять блоки, прыгая на них",
+    "(пашни, яица черепах и т.п.)"
+  ],
+  "FROSTWALKER.desc": [
+    "Позволяет замораживать воду зачарованием"
+  ],
+  "PORTAL.desc": [
+    "Позволяет использовать порталы в нижний мир"
+  ],
+  "RAID.desc": [
+    "Позволяет начинать рейды.",
+    "Не предотвращает уже начатые рейды."
+  ],
+  "BOAT.desc": [
+    "Позволяет садиться в лодки"
+  ],
+  "MINECART.desc": [
+    "Позволяет садиться в вагонетки"
+  ],
+  "BUCKET.desc": [
+    "Позволяет наполнять ведра"
+  ],
+  "ENDERPEARL.desc": [
+    "Позволяет использовать жемчуг Эндера"
+  ],
+  "CHORUSFRUIT.desc": [
+    "Позволяет есть плоды хоруса"
+  ],
+  "ANIMALINTERACT.desc": [
+    "Позволяет взаимодействовать с животными",
+    "(пр. стричь овец)"
+  ],
+  "HURTANIMAL.desc": [
+    "Позволяет наносить урон животным"
+  ],
+  "XP.desc": [
+    "Позволяет подбирать сферы опыта"
+  ],
+  "TRADING.desc": [
+    "Позволяет торговать с жителями"
+  ],
+  "ARMORSTAND.desc": [
+    "Позволяет взаимодействовать со стойками для брони"
+  ],
+  "BREAKNONLIVING.desc": [
+    "Позволяет разрушать сущности вроде вагонеток или стоек для брони"
+  ],
+  "DROP.desc": [
+    "Позволяет выбрасывать предметы"
+  ],
+  "PICKUP.desc": [
+    "Позволяет подбирать предметы"
+  ],
+  "FLIGHT.desc": [
+    "Позволяет не креативный полет"
+  ],
+  "CANSTAY.desc": [
+    "Позволяет игрокам находиться в вашем привате"
+  ],
+  "TELEPORT.desc": [
+    "Позволяет игрокам использовать ваш приват в качестве основного"
+  ],
+  "NOHUNGER.desc": [
+    "Отключает голод"
+  ],
+  "CLAIMMESSAGE.desc": [
+    "Позволяет редактировать сообщения входа/выхода привата"
+  ],
+  "PLAYERMOBSPAWN.desc": [
+    "Позволяет игрокам спавнить мобов через различные взаимодействия",
+    "(пр. хранителей или чешуйниц края при помощи жемчуга Эндер"
+  ],
+  "SCULK.desc": [
+    "Позволяет скалк-сенсорам реагировать.",
+    "Скалковые крикуны обрабатываются опцией PLAYERMOBSPAWN"
+  ],
+  "HURTPLAYER.desc": [
+    "Позволяет наносить урон другим игрокам"
+  ],
+  "EXPLOSIONS.desc": [
+    "Разрешает взрывы в привате"
+  ],
+  "WITHER.desc": [
+    "Позволяет иссушителям ломать блоки в привате"
+  ],
+  "ENDERMAN.desc": [
+    "Позволяет эндерменам поднимать и ставить блоки"
+  ],
+  "SNOWGOLEM.desc": [
+    "Позволяет снеговикам оставлять за собой слой снега"
+  ],
+  "FIRESPREAD.desc": [
+    "Позволяет огню распространяться в привате"
+  ],
+  "WATERBORDER.desc": [
+    "Позволяет воде пересекать границы привата"
+  ],
+  "PISTONBORDER.desc": [
+    "Позволяет поршням толкать/тащить блоки через границы привата"
+  ],
+  "MOBSPAWN.desc": [
+    "Позволяет враждебным мобам спавниться в привате"
+  ],
+  "ANIMALSPAWN.desc": [
+    "Предотвращать спавн мирных мобов в привате"
+  ],
+  "LIGHTNING.desc": [
+    "Позволяет молниям влиять на приват",
+    "(пр. поджигать блоки или влиять",
+    "на животных (но не на остальных мобов))"
+  ],
+  "LOCKITEMS.desc": [
+    "Определяет, должны ли выброшенные предметы быть заблокированы после гибели"
+  ],
+  "FAKEPLAYER.desc": [
+    "Позволяет fakeplayer'ам взаимодействовать внутри привата.",
+    "Fakeplayer'ы из некоторые модов имеют тот же uuid, что и игрок.",
+    "Для таких модов данная опция не нужна."
+  ],
+  "command.help": [
+    "help <страница> | (cmd <команда>)",
+    "Выводит все доступные команды или справку для конкретной команды."
+  ],
+  "command.menu": [
+    "menu",
+    "Открыват меню привата, если вы находитесь в привате, в котором вам разрешено это делать."
+  ],
+  "command.claimInfo": [
+    "claimInfo",
+    "Выводит информацию о привате, в котором вы сейчас находитесь."
+  ],
+  "command.delete": [
+    "delete",
+    "Удаляет текущий приват."
+  ],
+  "command.deleteAll": [
+    "deleteAll",
+    "Удаляет все ваши приваты (вам нужно ввести эту команду дважды чтобы подтвердить это действие)."
+  ],
+  "command.deleteSubClaim": [
+    "deleteSubClaim",
+    "Удаляет текущий подприват."
+  ],
+  "command.deleteAllSubClaims": [
+    "deleteAllSubClaims",
+    "Удаляет все подприваты в текущием привате."
+  ],
+  "command.list": [
+    "list <player>",
+    "Выводит список всем ваших приватов. Если вы оператор, то выводит списов приватов других игроков."
+  ],
+  "command.switchMode": [
+    "switchMode",
+    "Переключате режим между редактированием привата и подпривата."
+  ],
+  "command.group": [
+    "group (add | remove <название>) | (players add | remove <игрок> [переопределение])",
+    "- Добавляет/удаляет группы по названию. Так же это можно делать через меню привата.",
+    "- Добавляет/удаляет игрока в группу. Если присутствуют переопределения, они заменяют аналогичные опции в текущей группе для данного игрока. Так же это можно делать через меню привата."
+  ],
+  "command.transferClaim": [
+    "transferClaim <игрок>",
+    "Передает владение приватом указанному игроку. Работает только если вы являетесь владельцем привата."
+  ],
+  "command.addClaim": [
+    "addClaim (<x y z> <x y z>) | all | (rect x z)",
+    "Создает приват по данным координатам. Принцип тот же, что и у инструмента привата.",
+    "<all> использует все оставшиеся блоки вокруг игрока, формируя квадрат",
+    "<rect> созданет прямоугольный приват с центром вокруг игрока"
+  ],
+  "command.permission": [
+    "permission {global | (group <name>) | (personal <name>)} <permission> true | false | default",
+    "Устанавливает глобальную/групповую/персональную опцию. Так же это можно делать через меню привата (для групповых опций кликните ПКМ на группе в меню)."
+  ],
+  "command.personalGroups": [
+    "personalGroups",
+    "Открывает интерфейс редактирования персональных групп."
+  ],
+  "command.sellBlocks": [
+    "sellBlocks <amount>",
+    "Sells <amount> claimblocks. Needs gunpowder currency installed."
+  ],
+  "command.buyBlocks": [
+    "buyBlocks <amount>",
+    "Buys <amount> claimblocks. Needs gunpowder currency installed."
+  ],
+  "command.trapped": [
+    "trapped",
+    "Если игрок находится в чужом привате, выполняется попытка переместить игрока за его пределы через 5 секунд после использования."
+  ],
+  "command.unlockDrops": [
+    "unlockDrops <игроки>",
+    "Разблокирует предметы, выпавшие при гибели игрока, чтобы другие игроки могли их поднять. Или все указанные игроки (необходимы права оператора)."
+  ],
+  "command.setHome": [
+    "setHome",
+    "Устанавливает точку основного привата в точке расположение игрока при обладании достаточными правами"
+  ],
+  "command.teleport": [
+    "teleport self | admin | (other <игрок>) (<название привата> | <uuid привата>)",
+    "Перемещает к точке основного привата данного привата. Используйте admin для перемещения к приватам администраторов."
+  ],
+  "command.name": [
+    "name self <название>",
+    "Устанавливает название текущего привата"
+  ],
+  "command.claimMessage": [
+    "claimMessage (enter | leave) (title | subtitle) (string | text) <значение>",
+    "Устанавливает сообщения привата. Используйте \"$empty\" для удаления сообщения."
+  ],
+  "command.reload": [
+    "reload",
+    "Перезагружает конфигурацию внутри игры."
+  ],
+  "command.adminMode": [
+    "adminMode",
+    "Переключать в режим admin mode, игнориря любые приваты."
+  ],
+  "command.readGriefPrevention": [
+    "readGriefPreventionData",
+    "Импортирует данные из плагина GriefPrevention во Flan"
+  ],
+  "command.setAdminClaim": [
+    "setAdminClaim",
+    "Добавляет текущий приват в список приватов администрации."
+  ],
+  "command.listAdminClaims": [
+    "listAdminClaim",
+    "Выводит список всех приватов администрации в текущем мире."
+  ],
+  "command.adminDelete": [
+    "adminDelete [all <игрок>]",
+    "Принудительно удаляет текущий приват или все приваты указанного игрока."
+  ],
+  "command.giveClaimBlocks": [
+    "giveClaimBlocks <amount>",
+    "Gives a player additional claim blocks."
+  ]
+}
